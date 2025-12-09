@@ -6,7 +6,7 @@ This project implements an intelligent **Restaurant Sales AI Agent** that uses *
 
 ---
 
-## Architecture & Components
+## Architecture & Components 
 
 ### 1. **Data Pipeline**
 - **Input**: Restaurant sales CSV file (`cleaned_sales_data.csv`) with 254 records
