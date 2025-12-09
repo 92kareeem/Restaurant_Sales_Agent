@@ -43,7 +43,7 @@ This project implements an intelligent **Restaurant Sales AI Agent** that uses *
 
 ---
 
-## How The Solution Works (4-6 Lines)
+## How The Solution Works 
 
 **The Restaurant Sales AI Agent uses Retrieval-Augmented Generation (RAG) to answer manager questions with 100% data accuracy. When a user asks a question, the system converts it to embeddings using a sentence transformer model and searches a FAISS vector database containing all 254 sales records. The top 5 most relevant documents are retrieved and passed to Groq's Llama 3.3 70B model along with a strict prompt that forbids hallucination. The LLM synthesizes the retrieved records into a natural language answer, providing specific numbers, dates, and order IDs. Source metadata is returned alongside each answer for verification and transparency.**
 
