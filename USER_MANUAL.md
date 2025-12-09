@@ -651,4 +651,3 @@ def ask_agent(query, save_to_file=False):
 
 **You're ready to use the Restaurant Sales AI Agent!** 🎉
 
-For questions or issues, refer to the Troubleshooting section or check the `SOLUTION_EXPLANATION.md` document for technical details.
