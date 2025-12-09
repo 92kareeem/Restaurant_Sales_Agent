@@ -196,7 +196,7 @@ Answer: [Generated response with order IDs, dates, cities]
 
 ---
 
-## Limitations & Future Improvements
+## LIMITATIONS & FUTURE IMPROVEMENTS
 
 ### Current Limitations
 1. **Limited Context Window**: Only top-5 documents (mitigate: increase K or use re-ranking)
@@ -217,19 +217,19 @@ Answer: [Generated response with order IDs, dates, cities]
 ## Security & Best Practices
 
 ### API Key Management
-- ✅ Uses `.env` file (not committed to git)
-- ✅ Environment variable injection
-- ✅ Error handling for missing keys
+- Uses `.env` file (not committed to git)
+- Environment variable injection
+- Error handling for missing keys
 
 ### Data Validation
-- ✅ CSV schema validation
-- ✅ Missing value handling
-- ✅ Type conversions with error handling
+- CSV schema validation
+- Missing value handling
+- Type conversions with error handling
 
 ### Prompt Security
-- ✅ Strict system prompt prevents prompt injection
-- ✅ Input sanitization (queries are embedded, not executed)
-- ✅ Output validation (structured response format)
+- Strict system prompt prevents prompt injection
+- Input sanitization (queries are embedded, not executed)
+- Output validation (structured response format)
 
 ---
 
@@ -267,6 +267,6 @@ The modular architecture allows easy extension with additional data sources, mor
 
 ---
 
-**Author**: Restaurant Sales AI Agent Team  
+**Author**: Syed Abdul Kareem Ahmed 
 **Date**: December 2025  
 **Technology Stack**: Python 3.12, LangChain, FAISS, Groq, Llama 3.3 70B
