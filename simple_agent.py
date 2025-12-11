@@ -1,4 +1,3 @@
-# rag_sales_agent.py
 import os
 import pandas as pd
 from langchain_core.documents import Document
@@ -18,7 +17,7 @@ load_dotenv()
 # -------------------------
 # CONFIG
 # -------------------------
-CLEANED_CSV = "cleaned_sales_data.csv"   # <-- path to your cleaned CSV
+CLEANED_CSV = "cleaned_sales_data.csv"   # <-- path to  cleaned CSV
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"  # small, fast model
 FAISS_INDEX_PATH = "faiss_sales.index"
 DOCS_PICKLE = "docs_sales.pkl"
